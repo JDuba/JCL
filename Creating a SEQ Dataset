@@ -7,6 +7,6 @@
 //NEWDS    DD  DSN=MFAPP12.PROCLIB,                      
 //             DISP=(NEW,CATLG),                         
 //             VOL=SER=VPMVSB,                           
-//             RECFM=FB,LRECL=80,BLKSIZE=27920,          
+//             DCB=(RECFM=FB,LRECL=80,BLKSIZE=27920),          
 //             UNIT=3390,SPACE=(CYL,(1,1,)),             
 //             DSORG=PS                                  
