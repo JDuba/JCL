@@ -4,8 +4,8 @@
 //* CREATING A NEW PDS DATASET *                         
 //******************************                         
 //STEP1    EXEC PGM=IEFBR14                              
-//NEWDS    DD  DSN=&SYSUID..TESTLIB,                     
+//NEWDS    DD  DSN=&SYSUID..######.#####,                     
 //             DISP=(NEW,CATLG),                         
-//             VOL=SER=VPMVSB,                           
-//             RECFM=FB,LRECL=80,BLKSIZE=27920,          
-//             UNIT=3390,SPACE=(CYL,(1,1,1))             
+//             VOL=SER=XXXXXX,                           
+//             RECFM=FB,LRECL=##,BLKSIZE=#####,          
+//             UNIT=unit,SPACE=(CYL,(#,#,#))             
